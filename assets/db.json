@@ -1,0 +1,34 @@
+{
+  "productos": [
+    {
+      "nombre": "Pantalon",
+      "color": "blanco",
+      "peso": "300",
+      "id": 2
+    },
+    {
+      "nombre": "Tenis",
+      "color": "negro",
+      "peso": "400",
+      "id": 3
+    },
+    {
+      "nombre": "Reloj",
+      "color": "gris",
+      "peso": "50",
+      "id": 4
+    },
+    {
+      "nombre": "Gorra",
+      "color": "Verde",
+      "peso": "70",
+      "id": 5
+    },
+    {
+      "nombre": "Lentes de sol",
+      "color": "Amarillo",
+      "peso": "30",
+      "id": 6
+    }
+  ]
+}

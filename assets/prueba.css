@@ -1,0 +1,57 @@
+
+/* **********     CUSTOM STYLES     ********** */
+h1, h2{
+    padding: 0.5rem;
+    margin: 1rem auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.product-form {
+    --form-ok-color: #4caf50;
+    --form-error-color: #f44336;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  
+  .product-form > * {
+    padding: 0.5rem;
+    margin: 1rem auto;
+    display: block;
+    width: 100%;
+  }
+
+  
+  .product-form input {
+    font-size: 1rem;
+    font-family: sans-serif;
+  }
+  
+  .product-form input[type="submit"] {
+    width: 50%;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .product-form *::placeholder {
+    color: #000;
+  }
+  
+  .product-form [required]:valid {
+    border: thin solid var(--form-ok-color);
+  }
+  
+  .product-form [required]:invalid {
+    border: thin solid var(--form-error-color);
+  }
+  
+  .product-form-error {
+    margin-top: -1rem;
+    font-size: 80%;
+    background-color: var(--form-error-color);
+    color: #fff;
+    transition: all 800ms ease;
+  }
+  
